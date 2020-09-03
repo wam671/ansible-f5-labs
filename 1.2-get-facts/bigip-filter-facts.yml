@@ -16,6 +16,7 @@
           server_port: 8443
           validate_certs: false
       register: device_facts
+      tags: facts
 
     - name: DISPLAY ONLY THE MAC ADDRESS
       debug:
